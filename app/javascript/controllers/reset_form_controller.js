@@ -7,7 +7,9 @@ export default class extends Controller {
 
   reset() {
     console.log('reset_form#reset', this.element)
-    this.element.reset()
-    this.element.querySelector('input[type=submit]').disabled = false
+
+    // Shoelace does not support these simple functions we would use for regular HTML.
+    // this.element.reset()
+    // this.element.querySelector('input[type=submit]').disabled = false
   }
 }

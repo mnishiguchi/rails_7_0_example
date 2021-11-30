@@ -21,8 +21,8 @@ gem "turbo-rails", ">= 0.7.11"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails", ">= 0.4.0"
 
-# Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
-gem "tailwindcss-rails", ">= 0.4.3"
+# https://github.com/yuki24/shoelace-rails
+gem "shoelace-rails", git: "https://github.com/yuki24/shoelace-rails.git"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder", "~> 2.7"
